@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://react-redux.realworld.io",
+  "defaultCommandTimeout": 10000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "screenshotOnRunFailure" : true,
+  "integrationFolder":"cypress/integration/Cypress_Demo",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+  }
+  },
+  "video": false
+  
+}

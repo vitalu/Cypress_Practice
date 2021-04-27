@@ -1,0 +1,7 @@
+<testsuite name="Mocha Tests" tests="3" failures="0" errors="1" skipped="0" timestamp="Tue, 27 Apr 2021 15:31:09 GMT" time="26.008">
+<testcase classname="Edit Post" name="Create a post" time="4.598"/>
+<testcase classname="Edit Post" name="Edit Post" time="0"><failure>Timed out retrying after 10000ms: expected &#x27;&#x3C;p&#x3E;&#x27; to contain &#x27;Hey!!,Editing Textss&#x27;
+AssertionError: Timed out retrying after 10000ms: expected &#x27;&#x3C;p&#x3E;&#x27; to contain &#x27;Hey!!,Editing Textss&#x27;
+    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\integration\Cypress_Demo\tests\editPostTest.js:293:29)</failure></testcase>
+<testcase classname="Edit Post" name="Delete post" time="3.588"/>
+</testsuite>
